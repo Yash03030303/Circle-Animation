@@ -12,10 +12,10 @@ div{
     border-radius: 50%;
     background-color: blanchedalmond;
     background-color: transparent;
-    border-top: 40px solid rgb(15, 7, 232);
-    border-left: 40px solid rgb(204, 238, 10);
-    border-bottom:40px rgb(251, 8, 239);
-    border-right: 40px rgb(10, 156, 247);
+    border-top: 60px solid rgb(15, 7, 232);
+    border-left: 60px solid rgb(204, 238, 10);
+    border-bottom:60px solid green;
+    border-right: 60px solid rgb(247, 10, 26);
 }
 div:hover{
     animation:cir 0.5s linear infinite;
@@ -23,10 +23,6 @@ div:hover{
 @keyframes cir {
     0%{
         transform: rotateZ(0deg);
-    }
-    50%{
-        border-right: 40px solid rgb(221, 123, 11);
-        border-bottom: 40px solid rgb(168, 4, 18);
     }
     100%{
         transform: rotateZ(180deg);
